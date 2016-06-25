@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFA204AC1D1E10C500929257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA204AB1D1E10C500929257 /* main.m */; };
+		DFA204AF1D1E10C500929257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA204AE1D1E10C500929257 /* AppDelegate.m */; };
+		DFA204B21D1E10C500929257 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA204B11D1E10C500929257 /* ViewController.m */; };
+		DFA204B51D1E10C500929257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA204B31D1E10C500929257 /* Main.storyboard */; };
+		DFA204B71D1E10C500929257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA204B61D1E10C500929257 /* Assets.xcassets */; };
+		DFA204BA1D1E10C500929257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA204B81D1E10C500929257 /* LaunchScreen.storyboard */; };
+		DFA204C51D1E10C500929257 /* DemoDarwTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA204C41D1E10C500929257 /* DemoDarwTests.m */; };
+		DFA204D01D1E10C500929257 /* DemoDarwUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA204CF1D1E10C500929257 /* DemoDarwUITests.m */; };
+		DFA2053F1D1E6D3C00929257 /* SYDrawTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA2053E1D1E6D3C00929257 /* SYDrawTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFA204C11D1E10C500929257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA2049F1D1E10C500929257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA204A61D1E10C500929257;
+			remoteInfo = DemoDarw;
+		};
+		DFA204CC1D1E10C500929257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA2049F1D1E10C500929257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA204A61D1E10C500929257;
+			remoteInfo = DemoDarw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFA204A71D1E10C500929257 /* DemoDarw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoDarw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA204AB1D1E10C500929257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFA204AD1D1E10C500929257 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFA204AE1D1E10C500929257 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFA204B01D1E10C500929257 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFA204B11D1E10C500929257 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFA204B41D1E10C500929257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFA204B61D1E10C500929257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFA204B91D1E10C500929257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFA204BB1D1E10C500929257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA204C01D1E10C500929257 /* DemoDarwTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoDarwTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA204C41D1E10C500929257 /* DemoDarwTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoDarwTests.m; sourceTree = "<group>"; };
+		DFA204C61D1E10C500929257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA204CB1D1E10C500929257 /* DemoDarwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoDarwUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA204CF1D1E10C500929257 /* DemoDarwUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoDarwUITests.m; sourceTree = "<group>"; };
+		DFA204D11D1E10C500929257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA2053D1D1E6D3C00929257 /* SYDrawTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDrawTools.h; sourceTree = "<group>"; };
+		DFA2053E1D1E6D3C00929257 /* SYDrawTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDrawTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFA204A41D1E10C500929257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA204BD1D1E10C500929257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA204C81D1E10C500929257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFA2049E1D1E10C500929257 = {
+			isa = PBXGroup;
+			children = (
+				DFA204A91D1E10C500929257 /* DemoDarw */,
+				DFA204C31D1E10C500929257 /* DemoDarwTests */,
+				DFA204CE1D1E10C500929257 /* DemoDarwUITests */,
+				DFA204A81D1E10C500929257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFA204A81D1E10C500929257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFA204A71D1E10C500929257 /* DemoDarw.app */,
+				DFA204C01D1E10C500929257 /* DemoDarwTests.xctest */,
+				DFA204CB1D1E10C500929257 /* DemoDarwUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFA204A91D1E10C500929257 /* DemoDarw */ = {
+			isa = PBXGroup;
+			children = (
+				DFA204AD1D1E10C500929257 /* AppDelegate.h */,
+				DFA204AE1D1E10C500929257 /* AppDelegate.m */,
+				DFA204B01D1E10C500929257 /* ViewController.h */,
+				DFA204B11D1E10C500929257 /* ViewController.m */,
+				DFA2053D1D1E6D3C00929257 /* SYDrawTools.h */,
+				DFA2053E1D1E6D3C00929257 /* SYDrawTools.m */,
+				DFA204B31D1E10C500929257 /* Main.storyboard */,
+				DFA204B61D1E10C500929257 /* Assets.xcassets */,
+				DFA204B81D1E10C500929257 /* LaunchScreen.storyboard */,
+				DFA204BB1D1E10C500929257 /* Info.plist */,
+				DFA204AA1D1E10C500929257 /* Supporting Files */,
+			);
+			path = DemoDarw;
+			sourceTree = "<group>";
+		};
+		DFA204AA1D1E10C500929257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFA204AB1D1E10C500929257 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFA204C31D1E10C500929257 /* DemoDarwTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFA204C41D1E10C500929257 /* DemoDarwTests.m */,
+				DFA204C61D1E10C500929257 /* Info.plist */,
+			);
+			path = DemoDarwTests;
+			sourceTree = "<group>";
+		};
+		DFA204CE1D1E10C500929257 /* DemoDarwUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFA204CF1D1E10C500929257 /* DemoDarwUITests.m */,
+				DFA204D11D1E10C500929257 /* Info.plist */,
+			);
+			path = DemoDarwUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFA204A61D1E10C500929257 /* DemoDarw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA204D41D1E10C500929257 /* Build configuration list for PBXNativeTarget "DemoDarw" */;
+			buildPhases = (
+				DFA204A31D1E10C500929257 /* Sources */,
+				DFA204A41D1E10C500929257 /* Frameworks */,
+				DFA204A51D1E10C500929257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoDarw;
+			productName = DemoDarw;
+			productReference = DFA204A71D1E10C500929257 /* DemoDarw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFA204BF1D1E10C500929257 /* DemoDarwTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA204D71D1E10C500929257 /* Build configuration list for PBXNativeTarget "DemoDarwTests" */;
+			buildPhases = (
+				DFA204BC1D1E10C500929257 /* Sources */,
+				DFA204BD1D1E10C500929257 /* Frameworks */,
+				DFA204BE1D1E10C500929257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA204C21D1E10C500929257 /* PBXTargetDependency */,
+			);
+			name = DemoDarwTests;
+			productName = DemoDarwTests;
+			productReference = DFA204C01D1E10C500929257 /* DemoDarwTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFA204CA1D1E10C500929257 /* DemoDarwUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA204DA1D1E10C500929257 /* Build configuration list for PBXNativeTarget "DemoDarwUITests" */;
+			buildPhases = (
+				DFA204C71D1E10C500929257 /* Sources */,
+				DFA204C81D1E10C500929257 /* Frameworks */,
+				DFA204C91D1E10C500929257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA204CD1D1E10C500929257 /* PBXTargetDependency */,
+			);
+			name = DemoDarwUITests;
+			productName = DemoDarwUITests;
+			productReference = DFA204CB1D1E10C500929257 /* DemoDarwUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFA2049F1D1E10C500929257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhangshaoyu;
+				TargetAttributes = {
+					DFA204A61D1E10C500929257 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5JH8ZFBFJD;
+					};
+					DFA204BF1D1E10C500929257 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5JH8ZFBFJD;
+						TestTargetID = DFA204A61D1E10C500929257;
+					};
+					DFA204CA1D1E10C500929257 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5JH8ZFBFJD;
+						TestTargetID = DFA204A61D1E10C500929257;
+					};
+				};
+			};
+			buildConfigurationList = DFA204A21D1E10C500929257 /* Build configuration list for PBXProject "DemoDarw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFA2049E1D1E10C500929257;
+			productRefGroup = DFA204A81D1E10C500929257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFA204A61D1E10C500929257 /* DemoDarw */,
+				DFA204BF1D1E10C500929257 /* DemoDarwTests */,
+				DFA204CA1D1E10C500929257 /* DemoDarwUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFA204A51D1E10C500929257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA204BA1D1E10C500929257 /* LaunchScreen.storyboard in Resources */,
+				DFA204B71D1E10C500929257 /* Assets.xcassets in Resources */,
+				DFA204B51D1E10C500929257 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA204BE1D1E10C500929257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA204C91D1E10C500929257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFA204A31D1E10C500929257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA204B21D1E10C500929257 /* ViewController.m in Sources */,
+				DFA204AF1D1E10C500929257 /* AppDelegate.m in Sources */,
+				DFA204AC1D1E10C500929257 /* main.m in Sources */,
+				DFA2053F1D1E6D3C00929257 /* SYDrawTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA204BC1D1E10C500929257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA204C51D1E10C500929257 /* DemoDarwTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA204C71D1E10C500929257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA204D01D1E10C500929257 /* DemoDarwUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFA204C21D1E10C500929257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA204A61D1E10C500929257 /* DemoDarw */;
+			targetProxy = DFA204C11D1E10C500929257 /* PBXContainerItemProxy */;
+		};
+		DFA204CD1D1E10C500929257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA204A61D1E10C500929257 /* DemoDarw */;
+			targetProxy = DFA204CC1D1E10C500929257 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFA204B31D1E10C500929257 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA204B41D1E10C500929257 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFA204B81D1E10C500929257 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA204B91D1E10C500929257 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFA204D21D1E10C500929257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFA204D31D1E10C500929257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFA204D51D1E10C500929257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoDarw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangshaoyu.DemoDarw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFA204D61D1E10C500929257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoDarw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangshaoyu.DemoDarw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFA204D81D1E10C500929257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoDarwTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangshaoyu.DemoDarwTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoDarw.app/DemoDarw";
+			};
+			name = Debug;
+		};
+		DFA204D91D1E10C500929257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoDarwTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangshaoyu.DemoDarwTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoDarw.app/DemoDarw";
+			};
+			name = Release;
+		};
+		DFA204DB1D1E10C500929257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoDarwUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangshaoyu.DemoDarwUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoDarw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DFA204DC1D1E10C500929257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoDarwUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangshaoyu.DemoDarwUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoDarw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFA204A21D1E10C500929257 /* Build configuration list for PBXProject "DemoDarw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA204D21D1E10C500929257 /* Debug */,
+				DFA204D31D1E10C500929257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA204D41D1E10C500929257 /* Build configuration list for PBXNativeTarget "DemoDarw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA204D51D1E10C500929257 /* Debug */,
+				DFA204D61D1E10C500929257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA204D71D1E10C500929257 /* Build configuration list for PBXNativeTarget "DemoDarwTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA204D81D1E10C500929257 /* Debug */,
+				DFA204D91D1E10C500929257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA204DA1D1E10C500929257 /* Build configuration list for PBXNativeTarget "DemoDarwUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA204DB1D1E10C500929257 /* Debug */,
+				DFA204DC1D1E10C500929257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFA2049F1D1E10C500929257 /* Project object */;
+}
