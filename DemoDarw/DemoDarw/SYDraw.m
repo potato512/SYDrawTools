@@ -6,9 +6,9 @@
 //  Copyright © 2016年 zhangshaoyu. All rights reserved.
 //
 
-#import "SYDrawTools.h"
+#import "SYDraw.h"
 
-@implementation SYDrawTools
+@implementation SYDraw
 
 /**
  *  绘制虚线
@@ -44,6 +44,40 @@
     [dashedLine.layer addSublayer:shapeLayer];
     return dashedLine;
 }
+
++ (void)drawCycleProgress:(UIView *)view frame:(CGRect)frame progress:(CGFloat)progress
+{
+    CAShapeLayer *trackLayer = [CAShapeLayer layer];
+    [view.layer addSublayer:trackLayer];
+    trackLayer.fillColor = nil;
+    trackLayer.strokeColor = [UIColor greenColor].CGColor;
+    trackLayer.frame = frame;
+    
+    CAShapeLayer *progressLayer = [CAShapeLayer new];
+    [view.layer addSublayer:progressLayer];
+    progressLayer.fillColor = nil;
+    progressLayer.strokeColor = [UIColor redColor].CGColor;
+    progressLayer.lineCap = kCALineCapRound;
+    progressLayer.frame = frame;
+    
+    // 默认5
+    CGFloat progressWidth = 10.0;
+    
+    UIBezierPath *trackPath = [UIBezierPath bezierPathWithArcCenter:view.center radius:(frame.size.width - progressWidth)/ 2 startAngle:0 endAngle:M_PI * 2 clockwise:YES];;
+    trackLayer.path = trackPath.CGPath;
+
+    UIBezierPath *progressPath = [UIBezierPath bezierPathWithArcCenter:view.center radius:(frame.size.width - progressWidth)/ 2 startAngle:- M_PI_2 endAngle:(M_PI * 2) * progress - M_PI_2 clockwise:YES];
+    progressLayer.path = progressPath.CGPath;
+}
+
++ (void)drawBlackSquare:(UIView *)view frame:(CGRect)frame
+{
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    [view.layer addSublayer:shapeLayer];
+    shapeLayer.frame = frame;
+    shapeLayer.backgroundColor = [UIColor brownColor].CGColor;
+}
+
 
 /*
  

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SYDraw.h"
 
 @interface ViewController ()
 
@@ -22,12 +23,20 @@
     
     self.title = @"类别";
     
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"draw" style:UIBarButtonItemStyleDone target:self action:@selector(drawClick:)];
+    
     [self setUI];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)loadView
+{
+    [super loadView];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)setUI
@@ -37,7 +46,7 @@
         [self setEdgesForExtendedLayout:UIRectEdgeNone];
     }
     
-    self.vcArray = @[[UIViewController class]];
+    self.vcArray = @[];
     CGFloat originY = 10.0;
     for (int i = 0; i < self.vcArray.count; i++)
     {
@@ -65,5 +74,20 @@
     UIViewController *vc = [[class alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+- (void)drawClick:(UIBarButtonItem *)item
+{
+//    UIView *view = [SYDraw drawDashedLineWithFrame:CGRectMake(10.0, 10.0, 200.0, 1.0) lineLength:5.0 lineSpace:2.0 lineColor:[UIColor redColor]];    
+//    [self.view addSubview:view];
+    
+//    [SYDraw drawCycleProgress:self.view frame:CGRectMake(10.0, 10.0, 100.0, 100.0) progress:0.3];
+    
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    [self.view.layer addSublayer:shapeLayer];
+    shapeLayer.frame = CGRectMake(10.0, 10.0, 50.0, 50.0);
+    shapeLayer.backgroundColor = [UIColor brownColor].CGColor;
+}
+
+
 
 @end
